@@ -1,0 +1,16 @@
+.bg-contactus {
+    background-image: url("../../assets/img/contactus.png");
+    
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;  
+}
+
+.btn-contactus {
+    position: absolute;
+    left: 40px;
+    top: 53px;
+
+}

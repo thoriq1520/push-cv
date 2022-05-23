@@ -6,7 +6,8 @@ import Login from './pages/Login';
 import ErrorPage from './pages/ErrorPage';
 import ContactUs from './pages/ContactUs/ContactUs';
 import Navbar from "./component/Navbar/Navbar";
-
+import AboutPage1 from './pages/About/page1';
+import AboutPage2 from './pages/About/page2';
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/about1" element={<AboutPage1 />} />
+        <Route path="/about2" element={<AboutPage2 />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>   
     </Router>
